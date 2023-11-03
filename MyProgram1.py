@@ -1,10 +1,13 @@
-print ("hello my name a jeff")
-print ("I like computer science club")
-x = 150
-x = input("how much?")
-print ("It costs: "+x)
-print ("Happy Halloween!")
-print ("Happy Halloween!")
-myList = {"ab", 34, True, 40, "male"}
-print("THe lenght of thisList:", len(myList))
-print(myList)
+
+
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter hte second number: "))
+total = (num1 + num2)
+print("The sum is:", total)
+
+
+myList = [True, "Lady", 421]
+print("The length of your list is", len(myList))
+
+
+
